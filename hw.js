@@ -24,9 +24,6 @@ const sumArray = function (arr) {
 }
 //console.log(sumArray([1, 2, 3, 4, 5]))
 
-//^initializing num1 and num2 with let or const did not work, 
-//but using var did. Weird. don't know why, but not initializing
-//worked fine too. 
 
 
 
@@ -49,7 +46,7 @@ const leapYears = function (start, end) {
    }
    console.log(arrLeapYears)
 }
-leapYears(1985,2024)
+//leapYears(1985,2024)
 
 
 
@@ -76,26 +73,8 @@ const sorting = function (array) {
       return title1.title.localeCompare(title2.title)
    })
    console.log(library)
-
-   // let sorted = []
-   // for (let i = 0; i < array.length; i++){
-   //    let objTitle = array[i].title
-   //    sorted.push(objTitle)
-   //    sorted = sorted.sort()
-   // }
-   // console.log(sorted)
-
-   // array.sort((a, b) => (a.title > b.title) ? 1 : -1)
-   // return array
 }
 //sorting(library)
-
-
-//sorting(library)
-//this lists sorted titles... idk how to list the sorted by title object array... yet
-
-//console.log(sorting(library))
-//okay the array.sort line works but i don't understand the 1 and -1 thing. I founf it on google and thought it meant truthy or falsy but then i just tried to replace them with true and false but that didn't work... so it works but i don't know why it works
 
 
 
